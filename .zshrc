@@ -9,4 +9,4 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 (cat ~/.cache/wal/sequences &)
-export PATH="${PATH}:${HOME}/.local/bin/"
+export PATH="${PATH}:${HOME}/.local/bin/:${HOME}/scripts"
