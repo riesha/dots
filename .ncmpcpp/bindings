@@ -1,0 +1,2 @@
+def_key "backspace"
+  delete_playlist_items
