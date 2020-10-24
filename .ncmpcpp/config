@@ -25,10 +25,9 @@ song_status_format = "{{%a{ - %t}}|{ - %f}{ - %b{ (%y)}}}"
 song_library_format = "{{%a - %t}|{%f}}{$R%l}"
 empty_tag_color = "black"
 
-[visualizer]
 visualizer_fifo_path = /tmp/mpd.fifo
 visualizer_output_name = "mpd_visualizer"
-visualizer_in_stereo = "yes"
+visualizer_in_stereo = "no"
 visualizer_sample_multiplier = 2
 visualizer_sync_interval = 30
 visualizer_look = ●●
@@ -38,4 +37,4 @@ colors_enabled = "yes"
 main_window_color = "default"
 centered_cursor = "yes"
 enable_window_title = "yes"
-external_editor = "vim"
+external_editor = "nvim"
