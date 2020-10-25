@@ -1,5 +1,4 @@
-wal -R
-compton &
-exec dwm
-mpd
-mpdas &
+wal-R
+picom &
+exec berry
+

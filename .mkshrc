@@ -1,0 +1,2 @@
+(cat $HOME/.config/wpg/sequences &)
+export EDITOR=nvim
